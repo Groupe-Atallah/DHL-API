@@ -64,4 +64,12 @@ class DocImage extends Base
             'enumeration' => 'PDF,PNG,TIFF,GIF,JPEG',
         ), 
     );
+    
+    /**
+     * @return string
+     */
+    public function getImage()
+    {
+        return $this->_values['Image'];
+    }
 }
