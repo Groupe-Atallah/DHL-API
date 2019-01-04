@@ -25,6 +25,8 @@
  * Simply include this file in order to use the DHL API
  */
 define('DHL_API_DIR', __DIR__ . '/');
+
+/**
 require_once(DHL_API_DIR . 'vendor/autoloadManager/autoloadManager.php');
 
 // Load adequate configuration file based on the APPLICATION_ENVIRONMENT 
@@ -45,3 +47,4 @@ $autoloadManager = new AutoloadManager($autoloadDir, $scanOption);
 $autoloadManager->addFolder(DHL_API_DIR . 'vendor');
 $autoloadManager->addFolder(DHL_API_DIR . 'DHL');
 $autoloadManager->register();
+**/
